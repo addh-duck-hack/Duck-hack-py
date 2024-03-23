@@ -1,6 +1,5 @@
 import reflex as rx
 
 config = rx.Config(
-    app_name="python_web",
-    api_url="https://duck-hack-py.onrender.com:3000"
+    app_name="python_web"
 )
