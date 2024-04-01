@@ -1,7 +1,7 @@
 import reflex as rx
-import python_web.styles.styles as styles
-from python_web.styles.colors import Color
-from python_web.components.service import service
+import duck_hack.styles.styles as styles
+from duck_hack.styles.colors import Color
+from duck_hack.components.service import service
 
 def services() -> rx.Component:
     return rx.vstack(

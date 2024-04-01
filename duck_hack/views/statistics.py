@@ -1,7 +1,7 @@
 import reflex as rx
-import python_web.styles.styles as styles
-from python_web.styles.colors import Color
-from python_web.components.statistic_element import statistics_element
+import duck_hack.styles.styles as styles
+from duck_hack.styles.colors import Color
+from duck_hack.components.statistic_element import statistics_element
 
 def statistics() -> rx.Component:
     return rx.flex(

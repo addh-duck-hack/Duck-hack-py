@@ -1,6 +1,6 @@
 import reflex as rx
-import python_web.styles.styles as styles
-from python_web.styles.colors import Color
+import duck_hack.styles.styles as styles
+from duck_hack.styles.colors import Color
 
 def team() -> rx.Component:
     return rx.flex(

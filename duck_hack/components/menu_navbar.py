@@ -1,8 +1,8 @@
 import reflex as rx
-import python_web.styles.styles as styles
-from python_web.styles.colors import Color
-from python_web.components.dropdown_services import dropdown_services
-from python_web.components.dropdown_menu import dropdown_menu
+import duck_hack.styles.styles as styles
+from duck_hack.styles.colors import Color
+from duck_hack.components.dropdown_services import dropdown_services
+from duck_hack.components.dropdown_menu import dropdown_menu
 
 def menu_navbar() -> rx.Component:
     return rx.box(

@@ -1,8 +1,8 @@
 import reflex as rx
-import python_web.styles.styles as styles
-from python_web.styles.colors import Color
-from python_web.components.carousel_item import carousel_item
-import python_web.texts.texts_es as texts
+import duck_hack.styles.styles as styles
+from duck_hack.styles.colors import Color
+from duck_hack.components.carousel_item import carousel_item
+import duck_hack.texts.texts_es as texts
 
 class CarouselState(rx.State):
     index: int = 0
