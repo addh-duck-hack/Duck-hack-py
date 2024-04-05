@@ -1,0 +1,33 @@
+version: "3.7"
+
+services:
+  duck_hack:
+    build:
+      context: Duck-hack-py
+      dockerfile: Dockerfile
+    container_name: duck_hack_com
+    environment:
+      DB_URL: sqlite:///data/reflex.db
+    restart: always
+    volumes:
+       - db-data:/app/data
+       - upload-data:/app/uploaded_files
+    ports:
+      - 82:82
+      - 83:83
+    networks:
+      - npm
+      - duck_hack_com
+
+networks:
+  duck_hack_com:
+    name: duck_hack_com
+    driver: bridge
+  npm:
+    external: true
+
+volumes:
+  # SQLite data
+  db-data:
+  # Uploaded files
+  upload-data:
