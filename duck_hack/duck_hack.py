@@ -7,6 +7,7 @@ from duck_hack.views.statistics import statistics
 from duck_hack.views.services import services
 from duck_hack.views.customers import customers
 from duck_hack.views.team import team
+from duck_hack.views.contact import contact
 
 class State(rx.State):
     """The app state."""
@@ -21,7 +22,7 @@ def index() -> rx.Component:
         services(),
         customers(),
         team(),
-
+        contact(),
         width="100%"
     )
 

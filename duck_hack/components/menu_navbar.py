@@ -9,25 +9,29 @@ def menu_navbar() -> rx.Component:
             rx.tablet_and_desktop(
                 rx.flex(
                     rx.link(
-                    "Nosotros",
-                    style= styles.text_link
+                        "Nosotros",
+                        style= styles.text_link,
+                        cursor= "pointer"
                     ),
                     rx.spacer(),
                     dropdown_services(),
                     rx.spacer(),
                     rx.link(
                         "Clientes",
-                        style= styles.text_link
+                        style= styles.text_link,
+                        cursor= "pointer"
                     ),
                     rx.spacer(),
                     rx.link(
                         "Equipo",
-                        style= styles.text_link
+                        style= styles.text_link,
+                        cursor= "pointer"
                     ),
                     rx.spacer(),
                     rx.link(
                         "Contacto",
-                        style= styles.text_link
+                        style= styles.text_link,
+                        cursor= "pointer"
                     ),
                     width="100%"
                 )
