@@ -5,5 +5,5 @@ config = rx.Config(
     api_url="https://api.duck-hack.cloud",
     frontend_port="82",
     backend_port="83",
-    deploy_url="https://duck-hack.cloud"
+    deploy_url="https://prod.duck-hack.cloud"
 )
