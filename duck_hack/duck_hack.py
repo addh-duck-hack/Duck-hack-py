@@ -21,7 +21,6 @@ def index() -> rx.Component:
         statistics(),
         services(),
         customers(),
-        team(),
         contact(),
         width="100%"
     )

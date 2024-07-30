@@ -6,7 +6,7 @@ def section2() -> rx.Component:
     return rx.flex(
             rx.flex(
                 rx.image(
-                    src="pato1.jpeg",
+                    src="sample7.jpg",
                     border_top_left_radius= "50%",
                     border_top_right_radius= "50%",
                 ),

@@ -11,7 +11,14 @@ def contact() -> rx.Component:
                         rx.box(
                             rx.text(
                                 "Mandanos un mensaje",
-                                style=styles.text_body2_bold
+                                style=styles.text_title2,
+                                margin_bottom="0.5em"
+                            ),
+                            rx.box(
+                                background_color=Color.BLUE_TEXT.value,
+                                height="2px",
+                                width="2em",
+                                margin_bottom="2em"
                             ),
                             form_contact(),
                             background_color=Color.BACKGROUND.value,
@@ -22,7 +29,14 @@ def contact() -> rx.Component:
                         rx.box(
                             rx.text(
                                 "Contactanos",
-                                style=styles.text_body2_bold
+                                style=styles.text_title2,
+                                margin_bottom="0.5em"
+                            ),
+                            rx.box(
+                                background_color=Color.BLUE_TEXT.value,
+                                height="2px",
+                                width="2em",
+                                margin_bottom="2em"
                             ),
                             background_color=Color.BACKGROUND.value,
                             padding=styles.Size.BIG.value,
@@ -38,6 +52,6 @@ def contact() -> rx.Component:
                 padding_bottom=styles.Size.VERY_BIG.value 
             ),
             width="100%",
-            margin_top="-20px",
+            margin_top="2em",
             background="center/cover url('/background_map.png')"    
         )

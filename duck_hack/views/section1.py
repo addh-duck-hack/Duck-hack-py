@@ -29,14 +29,14 @@ def section1() -> rx.Component:
                 rx.center(
                     rx.flex(
                         rx.image(
-                            src="pato1.jpeg",
+                            src="sample6.jpg",
                             width=styles.SizeImg.DEFAULT.value,
                             border_radius=styles.Size.DEFAULT.value
                         )
                     ),
                     rx.flex(
                         rx.image(
-                            src="pato2.jpeg",
+                            src="sample9.jpg",
                             width=styles.SizeImg.MEDIUM.value,
                             border_radius=styles.Size.DEFAULT.value
                         ),
@@ -48,14 +48,14 @@ def section1() -> rx.Component:
                 rx.center(
                     rx.flex(
                         rx.image(
-                            src="pato3.jpeg",
+                            src="sample8.jpg",
                             width=styles.SizeImg.BIG.value,
                             border_radius=styles.Size.DEFAULT.value
                         )
                     ),
                     rx.flex(
                         rx.image(
-                            src="pato4.jpeg",
+                            src="sample4.jpg",
                             width=styles.SizeImg.LARGE.value,
                             border_radius=styles.Size.DEFAULT.value
                         ),
